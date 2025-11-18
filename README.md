@@ -39,7 +39,18 @@ one more to start the timer.
 
 ## Architecture
 
-* Site
+### Monolithic Architecture
+
+- index.html
+
+- styles
+  - protoStyles.css
+
+- scripts
+  - protoScripts.js
+
+- assets
+  - currTimerPic.png
 
 ## Attribution
 
@@ -50,3 +61,4 @@ one more to start the timer.
 * W3 Schools (consulted for assistance with style, web building)
 * ChatGPT 5.1 (consulted for cleanup of code and brainstorming)
 * Google AI (consulted for function building and assistance)
+
