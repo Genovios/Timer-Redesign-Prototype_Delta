@@ -7,11 +7,11 @@
 **I want** a better interface
 **So that** I can set up my timer in fewer clicks
 
-Use this timer to set time faster!
+Use this timer to set your time faster!
 
 ## Test Case
 
-**Success is gauged by the number of clicks needed to set the timer.**
+**Success is gauged by the number of clicks needed to set the timer. Fewer is better!**
 
 * Using the current timer design displayed on the webpage, it took 3 clicks to set and start a timer for one minute (60 seconds); one click for 6, another for 0, and
 one more to start the timer.
@@ -41,6 +41,8 @@ one more to start the timer.
 
 ### Monolithic Architecture
 
+- README.md
+
 - index.html
 
 - styles
@@ -56,9 +58,10 @@ one more to start the timer.
 
 ### Tools Used:
 
-* Code From Previous Assignments / Repositories (reused)
+* Code From Previous Assignments / Repositories (reused, updated / edited)
 * Dr. Barry Cumbie (instructor, consulted for idea assistance)
 * W3 Schools (consulted for assistance with style, web building)
 * ChatGPT 5.1 (consulted for cleanup of code and brainstorming)
 * Google AI (consulted for function building and assistance)
+
 
