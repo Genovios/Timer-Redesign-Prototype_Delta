@@ -60,8 +60,10 @@ one more to start the timer.
 
 * Code From Previous Assignments / Repositories (reused, updated / edited)
 * Dr. Barry Cumbie (instructor, consulted for idea assistance)
+* Outside Tutoring and Individuals (consulted for advice and styling)
 * W3 Schools (consulted for assistance with style, web building)
 * ChatGPT 5.1 (consulted for cleanup of code and brainstorming)
 * Google AI (consulted for function building and assistance)
+
 
 
