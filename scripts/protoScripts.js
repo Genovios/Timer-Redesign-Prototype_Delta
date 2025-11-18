@@ -1,7 +1,13 @@
 $(function () {
+
+    /* -----------------------------
+       Variables
+    --------------------------------*/
+
     let remaining = 0;
     let initial = 0;
     let timerId = null;
+    let clickAmt = 0;
 
     const $display = $("#timeDisplay");
     const $msDisplay = $("#msDisplay");
@@ -63,6 +69,22 @@ $(function () {
        Control Functions
     --------------------------------*/
 
+    try {
+      $("#startBtn").on("click", function () {
+        clickAmt++;
+        console.log("Clicks Taken to Initiate Timer: " + clickAmt);
+      });
+
+      $(".preset").on("click", function () {
+        clickAmt++;
+        console.log("Clicks Taken to Initiate Timer: " + clickAmt);
+      });
+    }
+
+    catch (error) {
+      console.log("ERROR! Clicks not counted...");
+    }
+
     // Sets the timer, automatically starts when user clicks a preset
     function setTimer(seconds, autoStart) {
         stopInterval();
@@ -104,7 +126,7 @@ $(function () {
     }
 
     /* -----------------------------
-       jQuery Event Bindings
+       Event (Click) Functions
     --------------------------------*/
 
     $(".preset").on("click", function () {
@@ -121,6 +143,8 @@ $(function () {
     $("#resetBtn").on("click", resetTimer);
     $("#stopBtn").on("click", stopTimer);
     $("#addMinBtn").on("click", addMinute);
+
+
 
     /* -----------------------------
        Initialize

@@ -1,9 +1,11 @@
 body {
   text-align: center;
+  background-color: tan;
 }
 
 #currentDesignBox {
   display: inline-block;
+  vertical-align: top;
   margin: 10px;
   border: 5px;
   border-style: solid;
@@ -13,10 +15,14 @@ body {
   text-align: center;
   width: 100%;
   max-width: 300px;
+  background-color: yellowgreen;
+  color: black;
+  font-weight: bold;
 }
 
 #prototypeDesignBox {
   display: inline-block;
+  vertical-align: top;
   margin: 10px;
   border: 5px;
   border-style: solid;
@@ -26,11 +32,19 @@ body {
   width: 100%;
   max-width: 420px;
   text-align: center;
+  background-color: yellowgreen;
+  color: black;
+  font-weight: bold;
 }
 
 #currPic {
-  height: 400px;
-  width: 200px;
+  height: 250px;
+  width: 150px;
+}
+
+#currPicBox {
+  border-bottom: 1px solid black;
+  padding: 10px;
 }
 
 #desc {
@@ -45,6 +59,8 @@ body {
   width: 100%;
   max-width: 420px;
   padding: 12px;
+  border: 1px;
+  border-style: dashed;
   border-radius: 12px;
   background: linear-gradient(180deg,#fff,#fbfbff);
   box-shadow: 0 6px 18px rgba(16,24,40,0.06);
@@ -61,4 +77,37 @@ body {
   min-width: 120px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(2,6,23,0.2);
+  margin: 15px;
+}
+
+.preset, .userControls {
+  margin: 5px;
+}
+
+footer {
+  --foot-bg-color: teal;
+  background-color: var(--foot-bg-color);
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 10px solid black;
+}
+
+.navbar {
+  --nav-bg-color: teal;
+  background-color: var(--nav-bg-color);
+  position: top;
+  top: 0;
+  width: 100%;
+  border-bottom: 10px solid black;
+}
+
+.nav-link-active {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link-active:hover {
+  color: crimson;
 }
