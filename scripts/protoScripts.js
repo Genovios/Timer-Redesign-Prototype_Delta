@@ -106,7 +106,7 @@ $(function () {
         stopInterval();
         remaining = initial;
         updateDisplay();
-        $status.text(remaining > 0 ? "Timer has been reset." : "Stopped!");
+        $status.text(remaining > 0 ? "Timer has been reset." : "Timer cleared!");
     }
 
     // Stops the timer
@@ -115,7 +115,7 @@ $(function () {
         remaining = 0;
         initial = 0;
         updateDisplay();
-        $status.text("Stopped!");
+        $status.text("Timer cleared!");
     }
 
     // Allows user to add additional, non-preset minutes, one at a time
@@ -152,3 +152,4 @@ $(function () {
     
     setTimer(0, false);
 });
+
